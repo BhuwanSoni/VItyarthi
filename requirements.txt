@@ -1,0 +1,7 @@
+opencv-python>=4.8
+mediapipe>=0.10
+numpy>=1.24
+
+# Windows only (system volume control)
+pycaw>=20230407; platform_system == "Windows"
+comtypes>=1.2; platform_system == "Windows"
